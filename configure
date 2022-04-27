@@ -1,8 +1,7 @@
 #!/bin/bash
-
+echo "Installing Apache Airflow..."
 touch docker-compose.yaml
 
-echo "Installing Apache Airflow..."
 cat > docker-compose.yaml <<EOF
 version: '3'
 x-airflow-common:

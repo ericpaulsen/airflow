@@ -1,4 +1,4 @@
-FROM codercom/enterprise-base:ubuntu
+FROM codercom/enterprise-multieditor:ubuntu
 
 USER root
 
